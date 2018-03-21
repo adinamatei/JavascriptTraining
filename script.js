@@ -28,7 +28,7 @@ function fibonacci(n){
     let arr = [0, 1];
     let nextNumber = 0;
     let len = arr.length;
-    for (let i = 2; i < len, i <= n; i++) {
+    for (let i = 2; i < len, i < n; i++) {
         nextNumber = arr[i - 1] + arr[i - 2];
         arr.push(nextNumber);
     }
